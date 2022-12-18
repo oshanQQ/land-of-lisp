@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  lisp:
+    build: .
+    container_name: lisp
+    tty: true
+    volumes:
+      - ./:/lisp
