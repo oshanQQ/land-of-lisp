@@ -20,8 +20,8 @@ $ docker-compose up -d
 sh enter-the-container.sh
 ```
 
-コンテナの中に入ったら、CLISPを起動できます。
-```bash
+コンテナの中で`clisp`を実行すれば、CLISPを起動できます。
+```
 root@XXXXXXXXXXXX:/lisp# clisp
 
   i i i i i i i       ooooo    o        ooooooo   ooooo   ooooo
@@ -44,6 +44,12 @@ Type :h and hit Enter for context help.
 
 [1]> (+ 3 (+ 2 4))
 9
+```
+
+CLISPを終了する時は、`(quit)`を実行します。
+```bash
+[2]> (quit)
+Bye.
 ```
 
 # License
